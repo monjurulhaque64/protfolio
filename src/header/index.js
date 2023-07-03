@@ -22,13 +22,13 @@ const Headermain = () => {
           </Link>
           <div className="d-flex align-items-center">
           <Themetoggle />
-          <button className="menu__button  nav_ac" onClick={handleToggle}>
+          {/* <button className="menu__button  nav_ac" onClick={handleToggle}>
             {!isActive ? <VscClose /> : <VscGrabber />}
           </button>
-          
+           */}
           </div>
         </div>
-
+{/* 
         <div className={`site__navigation ${!isActive ? "menu__opend" : ""}`}>
           <div className="bg__menu h-100">
             <div className="menu__wrapper">
@@ -58,12 +58,12 @@ const Headermain = () => {
             </div>
             <p className="copyright m-0">copyright __ {logotext}</p>
           </div>
-        </div>
+        </div> */}
       </header>
-      <div className="br-top"></div>
+      {/* <div className="br-top"></div>
       <div className="br-bottom"></div>
       <div className="br-left"></div>
-      <div className="br-right"></div>
+      <div className="br-right"></div> */}
       
     </>
   );
