@@ -1,8 +1,20 @@
+import project1Image from '../src/assets/images/project1.png';
+import project2Image from '../src/assets/images/project2.png';
+import project3Image from '../src/assets/images/project3.png';
+import project4Image from '../src/assets/images/project4.png';
+import project5Image from '../src/assets/images/project5.png';
+import project6Image from '../src/assets/images/project6.png';
+import project7Image from '../src/assets/images/project7.png';
+import project8Image from '../src/assets/images/project8.png';
+import project9Image from '../src/assets/images/project9.png';
+import profile from '../src/assets/images/profile.png';
+
 const logotext = "MONJURUL";
 const meta = {
     title: "MONJURUL HAQUE",
     description: "I’m MONJURUL HAQUE , I’m Full stack devloper.",
 };
+
 
 const introdata = {
     title: "Hi, I’m MONJURUL HAQUE",
@@ -11,7 +23,7 @@ const introdata = {
         second: "Specialized in React.JS",
     },
     description: "I am a committed professional with a strong desire for constant learning, leadership, and teamwork.",
-    your_img_url: "https://drive.google.com/uc?id=1qozv3ioPDGBwa9d6CMpb4Q9rigpWWnQP",
+    your_img_url: profile,
 };
 
 const dataabout = {
@@ -63,65 +75,67 @@ const skills = [{
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project1Image,
+        title: "MindScope",
+        description: "ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase, Stripe.js.",
+        DemoLink: "https://mindscape-b155f.web.app/",
+        githubLink: "https://github.com/monjurulhaque64/MindScape",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project4Image,
+        title: "Job Link",
+        description: "ReactJs, React Router, JavaScript, Tailwind CSS, React-toastify, Recharts",
+        DemoLink: "https://lucent-snickerdoodle-83b6ad.netlify.app/",
+        githubLink: "https://github.com/monjurulhaque64/job-link",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project7Image,
+        title: "Geometry Genius",
+        description: "HTML, CSS, JavaScript, Tailwind CSS.",
+        DemoLink: "https://fabulous-rabanadas-b95622.netlify.app/",
+        githubLink: "https://github.com/monjurulhaque64/geometry",
     },
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project2Image,
+        title: "Toy House",
+        description: "ReactJs, React Router, JavaScript, Tailwind CSS, Node.js, ExpressJs, MongoDB, Firebase.",
+        DemoLink: "https://toy-house-756b7.web.app/",
+        githubLink: "https://github.com/monjurulhaque64/Toy-Market",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project5Image,
+        title: "Knowledge Cafe",
+        description: " ReactJs, JavaScript, Tailwind CSS.",
+        DemoLink: "https://stellular-gecko-33023d.netlify.app/",
+        githubLink: "https://github.com/monjurulhaque64/knowlage-cafe",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project8Image,
+        title: "Justice",
+        description: "HTML, CSS, JavaScript, Tailwind CSS.",
+        DemoLink: "https://classy-brioche-3bebcf.netlify.app/",
+        githubLink: "https://github.com/monjurulhaque64/justice-web",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project3Image,
+        title: "SideChef",
+        description: "ReactJs, React Router, JavaScript, Tailwind CSS, Firebase, SwiperJS.",
+        DemoLink: "https://sidechef-f47ef.web.app/",
+        githubLink: "https://github.com/monjurulhaque64/Chef-Market",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project6Image,
+        title: "AI Universe Hub ",
+        description: "HTML, CSS, JavaScript, Tailwind CSS",
+        DemoLink: "https://tangerine-panda-1ee862.netlify.app/",
+        githubLink: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
+        img: project9Image,
+        title: "G3 Architects",
+        description: "HTML, CSS.",
+        DemoLink: "https://monjurulhaque64.github.io/web-assingment-2/",
+        githubLink: "https://github.com/monjurulhaque64/web-assingment-2",
     },
 ];
 
@@ -129,8 +143,6 @@ const contactConfig = {
     YOUR_EMAIL: "monjurulhoque64@gmail.com",
     YOUR_FONE: "01798689464",
     YOUR_ADDRESS: "Section: 1, Mirpur, Dhaka, Bangladesh",
-    // creat an emailjs.com account 
-    // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
     YOUR_SERVICE_ID: "service_bfayr82",
     YOUR_TEMPLATE_ID: "template_dujrktx",
     YOUR_USER_ID: "XloRTSZt0TbtYT7Nq",

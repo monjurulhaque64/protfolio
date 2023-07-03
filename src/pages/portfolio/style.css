@@ -1,3 +1,20 @@
+.image-wrap {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    margin: 2px auto;
+}
+.image-wrap img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: all 2s ease-in-out;
+}
+.image-wrap:hover img {
+    object-position: bottom center;
+}
+
 .po_items_ho {
     column-width: 15em;
     -moz-column-width: 15em;
@@ -8,7 +25,7 @@
 }
 
 .po_item {
-    display: inline-block;
+    display: inline-table;
     width: 100%;
     text-align: center;
     margin: 0.5rem auto;
@@ -26,23 +43,11 @@
 }
 
 .po_item .content {
-    position: absolute;
     height: 0;
     width: 0;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    background: var(--overlay-color);
-    z-index: 1;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    height: 100%;
     width: 100%;
-    transition: 0.3s ease-in-out;
-    opacity: 0;
-    border: 1px solid black;
 }
 
 .po_item .content {
@@ -77,4 +82,7 @@
 
 .po_item .content a:hover {
     text-decoration: none;
+}
+.projectTitle{
+    font-weight: bold;
 }
