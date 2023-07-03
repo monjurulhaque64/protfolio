@@ -1,74 +1,64 @@
-const logotext = "JUBAYER";
+const logotext = "MONJURUL";
 const meta = {
-    title: "JUBAYER-AL-MAHMUD",
-    description: "I’m JUBAYER-AL-MAHMUD data scientist _ Full stack devloper,currently working in Berlin",
+    title: "MONJURUL HAQUE",
+    description: "I’m MONJURUL HAQUE , I’m Full stack devloper.",
 };
 
 const introdata = {
-    title: "I’m JUBAYER-AL-MAHMUD",
+    title: "Hi, I’m MONJURUL HAQUE",
     animated: {
-        first: "I love coding",
-        second: "I code cool websites",
-        third: "I develop mobile apps",
+        first: "Full Stack Developer",
+        second: "Specialized in React.JS",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "https://drive.google.com/uc?id=1_RdjNYEb6Ij5jJd8bxwlTthUGbVYmZ0z",
+    description: "I am a committed professional with a strong desire for constant learning, leadership, and teamwork.",
+    your_img_url: "https://drive.google.com/uc?id=1qozv3ioPDGBwa9d6CMpb4Q9rigpWWnQP",
 };
 
 const dataabout = {
-    title: "abit about my self",
-    aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
+    title: "About my self",
+    aboutme: "My name is Monjurul Haque, and I am from Dhaka, Bangladesh. I am 23 years old and currently studying a Bachelor of Science in Computer Science and Engineering at Manarat International University. I am full stack web developer. I have learned a wide variety of Front-End technologies, Including HTML, CSS, Javascript and a few popular frameworks, such as Bootstrap, Tailwind CSS, and React js, as well some Back-End technologies, such as Node js and MongoDB. I finished some Full-Stack projects, In addition to my technical skills, I have practical experience in Machine Learning. As an assistant to my teachers and seniors, I actively contributed to a sign language recognition system project. This opportunity allowed me to apply my technical expertise in a real-world context and develop a deep understanding of Machine Learning principles. Furthermore, my involvement in various robotics competitions during my university years, where I led the MIU-Analytica team, honed my leadership, problem-solving, and teamwork abilities. ",
 };
-const worktimeline = [{
-        jobtitle: "Designer of week",
-        where: "YAdfi",
-        date: "2020",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "Jamalya",
-        date: "2019",
-    },
-    {
-        jobtitle: "Designer of week",
-        where: "ALquds",
-        date: "2019",
-    },
-];
+
 
 const skills = [{
-        name: "Python",
-        value: 90,
-    },
-    {
-        name: "Djano",
-        value: 85,
-    },
-    {
-        name: "Javascript",
+        name: "React JS",
         value: 80,
     },
     {
-        name: "React",
-        value: 60,
-    },
-    {
-        name: "Jquery",
+        name: "JavaScript",
         value: 85,
     },
-];
-
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+    {
+        name: "Bootstrap",
+        value: 70,
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        name: "Firebase",
+        value: 70,
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        name: "Node JS",
+        value: 70,
+    },
+    {
+        name: "MongoDB",
+        value: 75,
+    },
+    {
+        name: "Express JS",
+        value: 70,
+    },
+    {
+        name: "Python",
+        value: 50,
+    },
+    {
+        name: "Git",
+        value: 70,
+    },
+    {
+        name: "Linux (Ubuntu)",
+        value: 75,
     },
 ];
 
@@ -136,29 +126,27 @@ const dataportfolio = [{
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "jubayer@gmail.com",
-    YOUR_FONE: "01886689464",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: "monjurulhoque64@gmail.com",
+    YOUR_FONE: "01798689464",
+    YOUR_ADDRESS: "Section: 1, Mirpur, Dhaka, Bangladesh",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: "service_bfayr82",
+    YOUR_TEMPLATE_ID: "template_dujrktx",
+    YOUR_USER_ID: "XloRTSZt0TbtYT7Nq",
 };
 
 const socialprofils = {
     github: "https://github.com/monjurulhaque64",
-    facebook: "https://www.facebook.com/jubayer.noshin",
-    linkedin: "https://linkedin.com",
-    twitter: "https://twitter.com",
+    facebook: "https://www.facebook.com/monjurulhoque64",
+    linkedin: "https://www.linkedin.com/in/monjurulhoque64",
+    twitter: "https://twitter.com/monjurulhoque64",
 };
 export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
     skills,
-    services,
     introdata,
     contactConfig,
     socialprofils,
